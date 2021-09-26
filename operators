@@ -1,0 +1,84 @@
+                         #2.OPERATORS:::::
+#Q.1 arithmetic operators
+# addition,subtraction multiplication,divison.
+#addition("+")
+a=1
+b=2
+c=a+b
+print(c)
+#here addition is done.
+#subtraction
+a=1
+b=2
+c=a-b
+print(c)
+#in python not required any decleration of variable.
+#division:
+a=1
+b=2
+c=a*b
+print(c)
+#division::::
+a=4
+b=3
+c=a/b
+print(c)
+#here float values directly taken.
+
+
+#Q.2  increment operator
+x = 20
+x = x+1
+print(x)
+#above code shows increament operator.otherwise we can write as X+=1.here 1 number is added .the result is 21 came.
+#decrement
+x = 20
+x = x-1
+print(x)
+#the above code will shows decrement the value.this operators are use in loops concept.
+
+
+#Q.3. two numbers are equal or not...
+a=4 #here we can use user input also by using input()
+b=6
+if a==b:
+	print("equal")
+else:
+	print("not equal")
+	
+	
+#Q4..relational operators
+#less than<
+a=4 
+b=6
+if a<b:
+	print("a is less than b")
+else:
+	print("a is greater than b")
+#greater than>
+
+a=9
+b=6
+if a>b:
+	print("b is less than a")
+else:
+	print("b is greater than a")	
+#less than or equal to
+a=4 
+b=6
+if a<=b:
+	print("a is less than b")
+else:
+	print("a is greater than b")
+
+#greater than equal to
+a=4 
+b=6
+if a>=b:
+	print("a is less than b")
+else:
+	print("a is greater than b")
+	
+#Q5 smaller and larger number
+for i in range(1,100):
+	print(i,end='  ')

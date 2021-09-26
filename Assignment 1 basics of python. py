@@ -1,0 +1,34 @@
+print("atthi santhosh")
+#Q.2single line comment
+"""
+jala 
+technology
+mutli line comment
+"""
+##Q.3variable: variable is nothing but another memory location or temperary memory 
+"""
+int ===int is a variable it is  only numbers without decimal points
+boolean== it is a conditional statement variable .it is having true or false only ...it also called logical operator.
+float= this variable only in decimal points only.it is mostly preper variable in any other language.
+double=The Double Division operator in Python returns the floor value for both integer and floating-point arguments after division.
+char===python not having a character or char type variable.it is having a string format only.python takes automatically str format.
+"""
+"""Q.4 local and global variables==Global variables are variables declared outside a function. Local variables are variables declared inside a function.
+"""
+#local variable syntax:::
+def foo():
+    y = "local"
+    print(y)
+
+foo()
+#here inside the body variable is called local variable.
+#global variable:::
+x = "global"
+
+def foo():
+    print("x inside:", x)
+
+
+foo()
+print("x outside:", x)
+#this is the global variabe.it will take outside of the variable only.
